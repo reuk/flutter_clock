@@ -1,0 +1,22 @@
+name: moving_arm_clock
+description: Digital clock with moving arms.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.3.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_clock_helper:
+    path: ../flutter_clock_helper
+  cupertino_icons: ^0.1.2
+  quiver: ^2.0.5
+  intl: ^0.16.1
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: third_party/fonts/Roboto-Light.ttf
